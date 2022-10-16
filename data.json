@@ -5,7 +5,7 @@
       "project_name": "Fullstack Conference Form",
       "description": "Tired of leetcode? Tired of browsing a 1000 youtube videos that recycle TOP TEN WAYS TO BECOME A FULL STACK ENGINEER? Well took a gander at this accessible feedback enabled form to select some courses to become a fullstack gigachad. =]",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "/projects/0",
+      "live_link": "https://jajablinky.github.io/Interactive-Form",
       "github_link": "https://github.com/jajablinky/Interactive-Form",
       "image_urls": ["/static/img/fullstack-conference-form/fullstack_square_1.jpeg", "/static/img/fullstack-conference-form/fullstack_landscape_1.jpeg", "/static/img/fullstack-conference-form/fullstack_landscape_2.jpeg"]
     },
@@ -14,7 +14,7 @@
       "project_name": "Humans of Incredibly Stock Footage",
       "description": "An art collection of twelve random incredibly stock humans collected through the internet. Search to your hearts content per person to find out more or smash that refresh button for more subjects to see.",
       "technologies": ["Javascript", "HTML", "CSS", "Random User API"],
-      "live_link": "/projects/1",
+      "live_link": "https://jajablinky.github.io/Phrase-Hunter-Matrix-Edition",
       "github_link": "https://github.com/jajablinky/Humans-of-Incredibly-Stock-Footage_public-api-request",
       "image_urls": ["/static/img/humans-of-incredibly-stock-footage/humans_square_1.jpeg", "/static/img/humans-of-incredibly-stock-footage/humans_landscape_1.jpeg", "/static/img/humans-of-incredibly-stock-footage/humans_landscape_2.jpeg"]
     },
@@ -23,7 +23,7 @@
       "project_name": "Matrix Phrase Hunter Game",
       "description": "Enjoy the sweet sounds of the mainframe while you test your knowledge of the Matrix by hunting the phrase through your computer.",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "/projects/2",
+      "live_link": "https://jajablinky.github.io/Phrase-Hunter-Matrix-Edition",
       "github_link": "https://github.com/jajablinky/Phrase-Hunter-Matrix-Edition",
       "image_urls": ["/static/img/matrix-phrase-hunter-game/phrasehunter_square_1.jpeg", "/static/img/matrix-phrase-hunter-game/phrasehunter_landscape_1.jpeg", "/static/img/matrix-phrase-hunter-game/phrasehunter_landscape_2.jpeg"]
     },
@@ -32,7 +32,7 @@
       "project_name": "Random Quote Generator",
       "description": "Sit back and relax to enjoy this time-based quote generator. Patience being tested? No worries spam that generate button to your hearts content for maximum quote goodness.",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "/projects/3",
+      "live_link": "https://jajablinky.github.io/Random-Quote-Generator",
       "github_link": "https://github.com/jajablinky/Random-Quote-Generator",
       "image_urls": ["/static/img/random-quote-generator/quote_square_1.jpeg", "/static/img/random-quote-generator/quote_landscape_1.jpeg", "/static/img/random-quote-generator/quote_landscape_2.jpeg"]
     },
@@ -41,7 +41,7 @@
       "project_name": "Student Directory",
       "description": "Students keep filtering in daily and hard to keep track of. Well this classlist enables you to be able to view a certain group of students at a time and filter through with the search bar.",
       "technologies": ["Javascript", "HTML", "CSS"],
-      "live_link": "/projects/4",
+      "live_link": "https://jajablinky.github.io/ClassList-Data-Pagination-and-Filtering",
       "github_link": "https://github.com/jajablinky/ClassList-Data-Pagination-and-Filtering",
       "image_urls": ["/static/img/student-directory/students_square_2.jpeg", "/static/img/student-directory/students_landscape_1.jpeg", "/static/img/student-directory/students_landscape_2.jpeg"]
     }

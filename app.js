@@ -9,14 +9,20 @@ app.set('view engine' , 'pug');
 const mainRoutes = require('./routes');
 const projectsRoutes = require('./routes/projects');
 
+/* routed from /routes folder
+*/
+
 app.use(mainRoutes);
 app.use('/projects', projectsRoutes);
 
+
+/* error handling 404 -- if 404 template 'not-found' is rendered
+if 500 it renders 'error'
+*/
 app.use((req, res, next) => {
     res.status(404).render('not-found');
     
   });
-  /* Global error handler */
   
   app.use((err, req, res, next) =>{
   
