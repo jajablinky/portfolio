@@ -1,20 +1,21 @@
 {
-  "name": "static_node_and_express_site-v1",
+  "name": "portfolio",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jajablinky/jajablinky.github.io"
+    "url": "git+https://github.com/jajablinky/portfolio"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jajablinky/jajablinky.github.io/issues"
+    "url": "https://github.com/jajablinky/portfolio/issues"
   },
-  "homepage": "https://github.com/jajablinky/jajablinky.github.io#readme",
+  "homepage": "https://github.com/jajablinky/portfolio#readme",
   "directories": {
     "example": "examples"
   },

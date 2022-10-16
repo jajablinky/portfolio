@@ -2,7 +2,7 @@ extends layout
 
 block content
     section
-        h1= `Oh noes seems like you must be lost :( - Status: 404`
+        h1= `${message} - Status: ${status}`
         img(src='/static/img/sad.png')
         nav.nav
             a(href='/')
