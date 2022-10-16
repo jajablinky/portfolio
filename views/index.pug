@@ -1,0 +1,17 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Hi, welcome!
+
+    p I am a 30 year old software engineer from Vancouver, Canada. As a passionate enthusiast of art, music and coding, I enjoy finding solutions for creative passionate creators.
+    .projects-box.box.grid
+
+      each project in projects  
+
+        .cell
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=project.image_urls[0] alt='')
+            h5= `${project.project_name}`
