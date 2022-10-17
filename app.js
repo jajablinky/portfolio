@@ -20,25 +20,32 @@ app.use('/projects', projectsRoutes);
 if 500 it renders 'error'
 */
 app.use(( req, res, next) => {
-    console.log('Cannot find page');
-    res.locals.message = "Sorry, cannot find page";
-    res.locals.status = "404";
-    res.status(404).render('not-found');
+    const err = new Error("Sorry, cannot find page");
+    err.status = 404;
+    next(err);
   });
   
-app.use((err, req, res, next) => {
-
-  if (err) {
-    console.log('Global error handler called', err);
-  }
-
-  if (err.status === 404){
-    res.status = '404'.render = ('not-found', { err });
+app.use((err,req,res,next)=>{
+  res.status(err.status || 500); 
+  if (err.status === 404){ 
+      res.render('not-found',{
+          err: {
+              status : err.status,
+              message: err.message,
+              stack: err.stack
+          }})
   } else {
-    err.message = err.message || 'Oops! It looks like something went wrong with the server'
-    res.status(err.status || 500).render('error', { err });
+      err.status =  500
+      err.message = "An error is occured."
+      res.render('error',{
+          err: {
+              status : err.status,
+              message: err.message,
+              stack: err.stack
+          }
+      })
   }
-});
+})
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000');
